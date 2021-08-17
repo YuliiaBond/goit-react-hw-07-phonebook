@@ -37,7 +37,7 @@ export default function Form() {
         }
 
         if (contacts.map(contact => contact.name).includes(name)) {
-            alert(`${name} is already in contacs.`)
+            return alert(`${name} is already in contacs.`)
         }
 
         dispatch(addContact({ name, number }));

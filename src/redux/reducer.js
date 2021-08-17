@@ -19,8 +19,8 @@ const loading = createReducer(false, {
     [addContactRequest]: () => true,
     [addContactSuccess]: () => false,
     [addContactError]: () => false,
-    [deleteContactSuccess]: () => true,
-    [deleteContactRequest]: () => false,
+    [deleteContactSuccess]: () => false,
+    [deleteContactRequest]: () => true,
     [deleteContactError]: () => false,
 });
 
